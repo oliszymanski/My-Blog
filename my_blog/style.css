@@ -1,0 +1,126 @@
+html, body, *{
+	margin: 0;
+	padding: 0;
+}
+
+nav-link:hover{
+	/*color: #000;*/
+}
+
+.top-header{
+	background: #fff;
+}
+
+.txt-stp{
+	font-size: 15px;
+}
+
+.between-header-space{
+	margin-top: 200px;
+}
+
+
+
+/***** CARD CLASS PROPERTIES *****/
+.card-width{
+	width: 15rem;
+}
+
+.card-link{
+	transition: 0.5s;
+	text-decoration: none;
+	color: #000;
+}
+
+.card-link::hover{
+	text-decoration: none;
+	color: #0b5ed7;
+}
+
+
+
+/***** SLANTED VERSIONS *****/
+.slanted-div {
+  margin-top: 100px;
+  color: #fff;
+  position: relative;
+  padding: 200px 0;
+  background: #181818;
+  overflow: visible;
+  z-index: 1;
+}
+
+
+
+/* where the magic happens */
+.slanted-div:before, .slanted-div:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  transform-origin: left top;
+  transform: skewY(-3deg);
+}
+
+.slanted-div:after {
+  top: 0;
+  bottom: 0;
+  transform-origin: left top;
+  /*transform: skewY(3deg);*/
+}
+
+
+
+/*.slant-div{
+	width: 100vw;
+	height: 400px;
+	background: #fff
+}
+
+.slant-div:after{
+	width: 100vw;
+	height: 100vh;
+	content: '';
+	background: inherit;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform-origin: top left;
+	transform: skewY(4deg);
+}*/
+
+/*.slant{
+	position: relative;
+	width: 100%;
+	height: 10vh;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slant:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background: gray;
+	clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+}*/
+
+
+/***** FOOTER *****/
+.footer{
+	background-color: #000;
+	width: 100%;
+}
+
+
+
+/***** MEDIA AND OTHER *****/
