@@ -19,15 +19,16 @@ nav-link:hover{
 
 /***** GLOBAL USE *****/
 .between-header-space{
-	margin-top: 200px;
+	margin-top: 150px;
 }
 
-.between-div-space{
-    margin-top: 200px;
-}
 
-.adad{
-    margin-top: 100px;
+/***** FOOTER CSS *****/
+.main-footer{
+    width: 100%;
+    background-color: #3a383c;
+    margin-top: 90px;
+    color: #fff;
 }
 
 
