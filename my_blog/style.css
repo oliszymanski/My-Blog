@@ -15,8 +15,19 @@ nav-link:hover{
 	font-size: 15px;
 }
 
+
+
+/***** GLOBAL USE *****/
 .between-header-space{
 	margin-top: 200px;
+}
+
+.between-div-space{
+    margin-top: 200px;
+}
+
+.adad{
+    margin-top: 100px;
 }
 
 
