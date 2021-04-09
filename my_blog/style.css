@@ -3,10 +3,6 @@ html, body, *{
 	padding: 0;
 }
 
-nav-link:hover{
-	/*color: #000;*/
-}
-
 .top-header{
 	background: #fff;
 }
@@ -29,11 +25,20 @@ nav-link:hover{
     background-color: #3a383c;
     margin-top: 90px;
     color: #fff;
+    font-size: 14px;
 }
 
 
+.footer-alignment{
+    margin: 0 50px;
+}
+
 
 /***** CARD CLASS PROPERTIES *****/
+.card{
+    border-radius: 2px;
+}
+
 .card-width{
 	width: 15rem;
 }
