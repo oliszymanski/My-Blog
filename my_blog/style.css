@@ -50,6 +50,48 @@ html, body, *{
     text-decoration: underline
 }
 
+.bi-github{
+    font-size: 1rem;
+    color: white;
+}
+
+
+.bi-github{
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+.bi-github:hover{
+    color: #b8b8b8;
+}
+
+
+
+.bi-twitter{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.bi-twitter:hover{
+    color: #1da1f2;
+}
+
+
+.bi-facebook{
+    font-size: 1rem;
+    color: #fff;
+}
+
+.bi-facebook:hover{
+    color: #4267B2;
+}
+
+.footer-space{
+    margin-top: 20px;
+}
+
+
 
 /***** CARD CLASS PROPERTIES *****/
 .card{
@@ -64,11 +106,6 @@ html, body, *{
 	transition: 0.5s;
 	text-decoration: none;
 	color: #000;
-}
-
-.card-link::hover{
-	text-decoration: none;
-	color: #0b5ed7;
 }
 
 
