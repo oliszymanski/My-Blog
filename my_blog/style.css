@@ -34,9 +34,16 @@ html, body, *{
 }
 
 
+.footer-bold{
+    font-weight: 50px;
+}
+
+
 .footer-alignment{
     margin: 0 50px;
 }
+
+
 
 .footer-link{
     color: #fff;
@@ -106,6 +113,27 @@ html, body, *{
 	transition: 0.5s;
 	text-decoration: none;
 	color: #000;
+}
+
+.topic-name{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+/***** TOPIC TITLE COLORS *****/
+.topic-red{
+    color: #800000;
+}
+
+.topic-green{
+    color: #006600
+}
+
+
+.topic-blue{
+    color: #004080;
 }
 
 
