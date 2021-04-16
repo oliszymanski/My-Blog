@@ -30,6 +30,11 @@ html, body, *{
 	margin-top: 150px;
 }
 
+
+.after-card-space{
+    margin-top: 200px;
+}
+
 .list-group{
     list-style: none;
 }
