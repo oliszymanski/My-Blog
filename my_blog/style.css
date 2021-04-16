@@ -32,7 +32,7 @@ html, body, *{
 
 
 .after-card-space{
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 .list-group{
@@ -59,6 +59,11 @@ html, body, *{
 .footer-alignment{
     margin: 0 50px;
 }
+
+footer{
+    min-height: 175px;
+}
+
 
 footer hr{
     max-width: 12em;
