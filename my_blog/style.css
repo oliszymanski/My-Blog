@@ -13,6 +13,18 @@ html, body, *{
 
 
 
+/***** LONG TEXT CSS *****/
+.about-me-text{
+    font-size: 17px;
+}
+
+.text-sep{
+    margin-top: 20px;
+}
+
+
+
+
 /***** GLOBAL USE *****/
 .between-header-space{
 	margin-top: 150px;
@@ -41,6 +53,10 @@ html, body, *{
 
 .footer-alignment{
     margin: 0 50px;
+}
+
+footer hr{
+    max-width: 12em;
 }
 
 
@@ -118,6 +134,14 @@ html, body, *{
 .topic-name{
     font-size: 13px;
     font-weight: bold;
+}
+
+
+
+/***** BTN CLASS PROPERTIES *****/
+
+.btn{
+    border-radius: 2px;
 }
 
 
