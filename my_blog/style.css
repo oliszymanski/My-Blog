@@ -1,7 +1,7 @@
 html, body, *{
 	margin: 0;
 	padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;        /* Main font family */
 }
 
 .top-header{
@@ -20,7 +20,7 @@ html, body, *{
 }
 
 .text-sep{
-    margin-top: 20px;
+    margin-top: 40px;   !important
 }
 
 
@@ -30,7 +30,6 @@ html, body, *{
 .between-header-space{
 	margin-top: 150px;
 }
-
 
 .after-card-space{
     margin-top: 250px;
@@ -63,12 +62,14 @@ html, body, *{
 }
 
 footer{
-    min-height: 180px;
+    min-height: 175px;
+    margin-top: px;
+    max-width: 100%     !important
 }
 
 
 footer hr{
-    max-width: 20em;
+    max-width: 15em;
 }
 
 
@@ -77,7 +78,6 @@ footer hr{
     color: #fff;
     text-decoration: none;
     font-size: 12px;
-
 }
 
 .footer-link:hover{
@@ -112,7 +112,6 @@ footer hr{
     color: #1da1f2;
 }
 
-
 .bi-facebook{
     font-size: 1rem;
     color: #fff;
@@ -123,7 +122,7 @@ footer hr{
 }
 
 .footer-space{
-    margin-top: 20px;
+    margin-top: 27px;
 }
 
 
@@ -152,7 +151,7 @@ footer hr{
 
 /***** BTN CLASS PROPERTIES *****/
 .btn{
-    border-radius: 2px;
+    border-radius: .05px
 }
 
 
@@ -174,6 +173,14 @@ footer hr{
 
 
 
+
+
+
+
+
+
+
+/********************************************************************************/
 /***** SLANTED VERSIONS *****/
 .slanted-div {
   margin-top: 100px;
@@ -210,3 +217,13 @@ footer hr{
 
 
 /***** MEDIA AND OTHER *****/
+
+@media screen  (min-device-width: 480px){
+    .topics{
+        margin-top: 40px;
+    }
+
+    .follow-me{
+        margin-top: 40px;
+    }
+}
