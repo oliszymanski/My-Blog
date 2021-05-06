@@ -45,7 +45,8 @@ html, body, *{
 /***** LONG TEXT CSS *****/
 .main-content{
     min-height: 400px;
-    /*background: red8*/
+    background-image: url("./img/index-head-img.jpg");
+     background-repeat: no-repeat;
 }
 
 .main-content-inside{
