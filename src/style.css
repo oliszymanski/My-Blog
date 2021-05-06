@@ -51,6 +51,12 @@ html, body, *{
 
 .main-content-inside{
     margin: 0 25px;
+    color: #fff;
+}
+
+
+.content-view{
+    color: #fff;
 }
 
 
