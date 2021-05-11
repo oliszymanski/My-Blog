@@ -236,7 +236,7 @@ footer hr{
 
 
 /***** MEDIA AND OTHER *****/
-@media screen (min-width: 768px){
+@media screen and (max-width: 768px){
     .topics{
         margin-top: 45px;
     }
@@ -246,6 +246,6 @@ footer hr{
     }
 
     footer{
-        min-height: 175px;
+        min-height: 200px;
     }
 }
