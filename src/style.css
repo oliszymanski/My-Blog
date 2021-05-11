@@ -190,6 +190,12 @@ footer hr{
 }
 
 
+.btn-primary:hover{
+    background-color: #323232  !important;
+    border-color: #323232      !important;
+}
+
+
 
 
 /***** TOPIC TITLE COLORS *****/
