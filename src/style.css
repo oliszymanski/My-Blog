@@ -84,9 +84,10 @@ html, body, *{
 }
 
 footer{
-    min-height: 175px;
+    min-height: 200px;
     max-width: 100%     !important
 }
+
 
 
 footer hr{
@@ -147,6 +148,12 @@ footer hr{
     margin-top: 27px;
 }
 
+
+.copyright{
+    font-size: 10px;
+    margin-top: 25px;
+    color: #fff
+}
 
 
 /***** CARD CLASS PROPERTIES *****/
@@ -256,6 +263,10 @@ footer hr{
 
     .tutorials .col-md-4{
         margin-top: 50px;
+    }
+
+    footer{
+        min-height: 250px;
     }
 
 }
