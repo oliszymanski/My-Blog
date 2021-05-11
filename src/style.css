@@ -2,6 +2,7 @@ html, body, *{
 	margin: 0;
 	padding: 0;
     font-family: 'Lato', sans-serif;        /* Main font family */
+    color: #000;
 }
 
 .top-header{
@@ -64,7 +65,7 @@ html, body, *{
 /***** FOOTER CSS *****/
 .main-footer{
     width: 100%;
-    background-color: #3a383c;
+    background-color: #000;
     margin-top: 90px;
     color: #fff;
     font-size: 14px;
@@ -74,6 +75,7 @@ html, body, *{
 
 .footer-bold{
     font-weight: 50px;
+    color: #fff
 }
 
 
@@ -83,13 +85,13 @@ html, body, *{
 
 footer{
     min-height: 175px;
-    margin-top: px;
     max-width: 100%     !important
 }
 
 
 footer hr{
     max-width: 15em;
+    color: #fff;
 }
 
 
@@ -172,6 +174,12 @@ footer hr{
 /***** BTN CLASS PROPERTIES *****/
 .btn{
     border-radius: .05px
+}
+
+
+.btn-primary{
+    background-color: #000;
+    border-color: #000;
 }
 
 
