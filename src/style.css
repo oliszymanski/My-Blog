@@ -46,6 +46,10 @@ html, body, *{
 }
 
 
+.nav-item{
+    color: #000
+}
+
 
 /***** LONG TEXT CSS *****/
 .main-content{
