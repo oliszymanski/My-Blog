@@ -41,6 +41,10 @@ html, body, *{
 }
 
 
+.title{
+    color: #000;
+}
+
 
 
 /***** LONG TEXT CSS *****/
@@ -53,12 +57,12 @@ html, body, *{
 
 .main-content-inside{
     margin: 0 25px;
-    color: #fff;
+    color: #fff !important;
 }
 
 
 .main-content-inside .lead{
-    color: #fff;
+
 }
 
 
