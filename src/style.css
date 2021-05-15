@@ -61,8 +61,8 @@ html, body, *{
 }
 
 
-.main-content-inside .lead{
-
+.main-content-inside .title{
+    color: #fff;
 }
 
 
