@@ -2,7 +2,7 @@ html, body, *{
 	margin: 0;
 	padding: 0;
     font-family: 'Lato', sans-serif;        /* Main font family */
-    color: #000;
+    /*color: #000;*/
 }
 
 .top-header{
@@ -47,11 +47,17 @@ html, body, *{
 .main-content{
     min-height: 400px;
     background-image: url("./img/index-head-img.jpg");
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    color: #fff;
 }
 
 .main-content-inside{
     margin: 0 25px;
+    color: #fff;
+}
+
+
+.main-content-inside .lead{
     color: #fff;
 }
 
@@ -184,8 +190,8 @@ footer hr{
 }
 
 
-.btn-primary{
-    background-color: #000;
+.btn-dark{
+    background-color: #000 !important;
     border-color: #000;
 }
 
