@@ -53,11 +53,12 @@ html, body, *{
 
 /***** LONG TEXT CSS *****/
 .main-content{
-    min-height: 400px;
+    /*min-width: 1000px;*/
     background-image: url("./img/index-head-img.jpg");
     background-repeat: no-repeat;
     color: #fff;
 }
+
 
 .main-content-inside{
     margin: 0 25px;
@@ -68,12 +69,6 @@ html, body, *{
 .main-content-inside .title{
     color: #fff;
 }
-
-
-.content-view{
-    /*color: #fff;*/
-}
-
 
 
 /***** FOOTER CSS *****/
@@ -97,11 +92,11 @@ html, body, *{
     margin: 0 50px;
 }
 
+
 footer{
     min-height: 200px;
     max-width: 100%     !important
 }
-
 
 
 footer hr{
@@ -110,17 +105,18 @@ footer hr{
 }
 
 
-
 .footer-link{
     color: #fff;
     text-decoration: none;
     font-size: 12px;
 }
 
+
 .footer-link:hover{
     color: #fff;
     text-decoration: underline
 }
+
 
 .bi-github{
     font-size: 1rem;
@@ -139,24 +135,27 @@ footer hr{
 }
 
 
-
 .bi-twitter{
     font-size: 1rem;
     color: #fff;
 }
 
+
 .bi-twitter:hover{
     color: #1da1f2;
 }
+
 
 .bi-facebook{
     font-size: 1rem;
     color: #fff;
 }
 
+
 .bi-facebook:hover{
     color: #4267B2;
 }
+
 
 .footer-space{
     margin-top: 27px;
@@ -170,14 +169,17 @@ footer hr{
 }
 
 
+
 /***** CARD CLASS PROPERTIES *****/
 .card{
     border-radius: 2px;
 }
 
+
 .card-width{
 	width: 15rem;
 }
+
 
 .card-link{
 	transition: 0.5s;
@@ -185,11 +187,11 @@ footer hr{
 	color: #000;
 }
 
+
 .topic-name{
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 800;
 }
-
 
 
 /***** BTN CLASS PROPERTIES *****/
@@ -211,19 +213,18 @@ footer hr{
 
 
 
-
 /***** TOPIC TITLE COLORS *****/
 .topic-red{
-    color: #800000;
+    color: #400000;
 }
 
 .topic-green{
-    color: #006600
+    color: #004000;
 }
 
 
 .topic-blue{
-    color: #004080;
+    color: #000040;
 }
 
 
@@ -288,5 +289,4 @@ footer hr{
     footer{
         min-height: 250px;
     }
-
 }
