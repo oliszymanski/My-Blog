@@ -53,8 +53,6 @@ html, body, *{
 
 /***** LONG TEXT CSS *****/
 .main-content{
-    /*min-width: 1000px;*/
-
     /* TODO: ADD AN IMAGE WITH PERFECT SCALE */
 
     background-image: url("./img/index-head-img.jpg");
