@@ -66,6 +66,18 @@ html, body, *{
 
 
 
+/***** CARD HOVER CSS *****/
+
+.card:hover{
+    /* main animation */
+    transition-duration: .5s;
+
+    /* shadows */
+    moz-box-shadow: 5px 5px 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+
 /***** LONG TEXT CSS *****/
 .main-content{
     /* TODO: ADD AN IMAGE WITH PERFECT SCALE */
