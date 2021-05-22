@@ -31,9 +31,11 @@ html, body, *{
 	margin-top: 150px;
 }
 
+
 .after-card-space{
     margin-top: 250px;
 }
+
 
 .list-group{
     list-style: none;
@@ -181,6 +183,16 @@ footer hr{
 
 .bi-facebook{
     font-size: 1rem;
+    color: #fff;
+}
+
+
+.bi-facebook:hover{
+    color: #4267B2;
+}
+
+
+.bi-reddit{
     color: #fff;
 }
 
