@@ -71,6 +71,7 @@ html, body, *{
 .card{
     /* animation time (delay) */
     transition: 0.3s;
+    border-radius: rgba(17, 12, 46, 0.15);
 }
 
 
@@ -85,9 +86,10 @@ html, body, *{
 .main-content{
     /* TODO: ADD AN IMAGE WITH PERFECT SCALE */
 
-    background-image: url("./img/index-head-img.jpg");
+    background-image: url("./img/main_index_image_00.png");
     background-repeat: no-repeat;
     color: #fff;
+    min-width: 100%
 }
 
 
