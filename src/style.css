@@ -69,7 +69,7 @@ html, body, *{
 /***** CARD HOVER CSS *****/
 
 .card:hover{
-    /* main animation */
+    /* animation time */
     transition-duration: .5s;
 
     /* shadows */
