@@ -1,3 +1,13 @@
+:root{
+
+    /* card font attributes */
+    --card-letter-spacing: 1.67px;
+    --card-word-spacing: 2.44px;
+
+}
+
+
+
 html, body, *{
 	margin: 0;
 	padding: 0;
